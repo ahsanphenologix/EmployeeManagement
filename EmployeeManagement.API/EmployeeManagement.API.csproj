@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Uploads\Images\image.jpg" />
+    <None Include="wwwroot\Uploads\Images\image09500f9d-37ec-4ca1-93c0-57408ad520ba.jpg" />
+    <None Include="wwwroot\Uploads\Images\image3080b00b-e773-4eb6-9081-509b501d5f6d" />
+    <None Include="wwwroot\Uploads\Images\image499cf99f-5902-479c-8ad1-8b950334fb4a" />
+    <None Include="wwwroot\Uploads\Images\image5d392c6c-c930-4fe8-875f-8ad2bf3a53f4.jpg" />
+    <None Include="wwwroot\Uploads\Images\image6866c013-2ef2-41d2-887a-023fe80fbf07.jpeg" />
+    <None Include="wwwroot\Uploads\Images\image8d9b01b1-42e9-4206-ab63-6ff5c605743e.jpg" />
+    <None Include="wwwroot\Uploads\Images\image96965a69-8ca4-43c9-8eef-72e6ebc3b830.jpg" />
+    <None Include="wwwroot\Uploads\Images\imaged3f6e125-1fba-45bf-b93e-c5ffb9a8f936" />
+    <None Include="wwwroot\Uploads\Images\imagefd39dd78-24c4-4eba-826a-6d6b154d601a.jpg" />
+  </ItemGroup>
+
+</Project>

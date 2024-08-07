@@ -1,0 +1,415 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\AspNetCorePractice\\EmployeeManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\services\\customerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\services\\customerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\models\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\models\\databasemodels\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\models\\databasemodels\\customermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement.api\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement.api\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement.api\\repository\\customerimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\repository\\customerimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement.api\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement.api\\models\\customerrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\models\\customerrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement.api\\appdbcontext\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F3110A-364C-45AD-861D-F580703DC83F}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\appdbcontext\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\appdbcontext\\employeemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\appdbcontext\\employeemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|f:\\aspnetcorepractice\\employeemanagement\\employeemanagement\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F6FF307-5CFF-44D9-BE83-603B9AA656C0}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\Controllers\\CustomerController.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAewEsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:16:06.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\CustomerController.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "EmployeeManagement\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwGUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:54:59.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Models\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Models\\CustomerViewModel.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Models\\CustomerViewModel.cs",
+              "RelativeToolTip": "EmployeeManagement\\Models\\CustomerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T09:06:39.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "EmployeeManagement\\appsettings.json",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\appsettings.json",
+              "RelativeToolTip": "EmployeeManagement\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T12:56:26.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T13:27:25.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T09:03:20.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerServices.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Services\\CustomerServices.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Services\\CustomerServices.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Services\\CustomerServices.cs",
+              "RelativeToolTip": "EmployeeManagement\\Services\\CustomerServices.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAIAwwB8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:19:38.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAD8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T14:40:05.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerModel.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Models\\DatabaseModels\\CustomerModel.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Models\\DatabaseModels\\CustomerModel.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Models\\DatabaseModels\\CustomerModel.cs",
+              "RelativeToolTip": "EmployeeManagement\\Models\\DatabaseModels\\CustomerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T15:06:01.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\Repository\\CustomerRepository.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\Repository\\CustomerRepository.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T14:22:48.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\Interfaces\\IRepository.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAvwAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:46:37.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\EmployeeController.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "EmployeeManagement\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAtwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T13:08:13.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T08:35:35.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerImageRepository.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Repository\\CustomerImageRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\Repository\\CustomerImageRepository.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Repository\\CustomerImageRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\Repository\\CustomerImageRepository.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAMwEEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T11:52:38.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T12:47:31.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\_ViewStart.cshtml",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T12:47:40.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Models\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\Models\\ResponseModel.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Models\\ResponseModel.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\Models\\ResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:55:20.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Program.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Program.cs",
+              "RelativeToolTip": "EmployeeManagement\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T10:05:14.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\Program.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Program.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T09:51:43.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CustomerRequestModel.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Models\\CustomerRequestModel.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\Models\\CustomerRequestModel.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\Models\\CustomerRequestModel.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\Models\\CustomerRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T11:29:53.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomerDbContext.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\AppDbContext\\CustomerDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\AppDbContext\\CustomerDbContext.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\AppDbContext\\CustomerDbContext.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\AppDbContext\\CustomerDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T12:07:31.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployeeMDbContext.cs",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\AppDbContext\\EmployeeMDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\AppDbContext\\EmployeeMDbContext.cs",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\AppDbContext\\EmployeeMDbContext.cs",
+              "RelativeToolTip": "EmployeeManagement\\AppDbContext\\EmployeeMDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T08:49:44.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "EmployeeManagement\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T08:50:33.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

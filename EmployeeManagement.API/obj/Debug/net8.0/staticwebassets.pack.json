@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\Images-Free-Download.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\Images-Free-Download.jpg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\image.jpg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image09500f9d-37ec-4ca1-93c0-57408ad520ba.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\image09500f9d-37ec-4ca1-93c0-57408ad520ba.jpg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image3080b00b-e773-4eb6-9081-509b501d5f6d",
+      "PackagePath": "staticwebassets\\Uploads\\Images"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image499cf99f-5902-479c-8ad1-8b950334fb4a",
+      "PackagePath": "staticwebassets\\Uploads\\Images"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image5d392c6c-c930-4fe8-875f-8ad2bf3a53f4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\image5d392c6c-c930-4fe8-875f-8ad2bf3a53f4.jpg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image6866c013-2ef2-41d2-887a-023fe80fbf07.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\image6866c013-2ef2-41d2-887a-023fe80fbf07.jpeg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image8d9b01b1-42e9-4206-ab63-6ff5c605743e.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\image8d9b01b1-42e9-4206-ab63-6ff5c605743e.jpg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image96965a69-8ca4-43c9-8eef-72e6ebc3b830.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\image96965a69-8ca4-43c9-8eef-72e6ebc3b830.jpg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\imaged3f6e125-1fba-45bf-b93e-c5ffb9a8f936",
+      "PackagePath": "staticwebassets\\Uploads\\Images"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\imagefd39dd78-24c4-4eba-826a-6d6b154d601a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\imagefd39dd78-24c4-4eba-826a-6d6b154d601a.jpg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\istockphoto-1443628665-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\istockphoto-1443628665-2048x2048.jpg"
+    },
+    {
+      "Id": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\ultrafine_display.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Images\\ultrafine_display.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EmployeeManagement.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EmployeeManagement.API.props",
+      "PackagePath": "build\\EmployeeManagement.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EmployeeManagement.API.props",
+      "PackagePath": "buildMultiTargeting\\EmployeeManagement.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EmployeeManagement.API.props",
+      "PackagePath": "buildTransitive\\EmployeeManagement.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

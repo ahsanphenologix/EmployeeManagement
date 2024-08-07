@@ -1,0 +1,59 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model IEnumerable<EmployeeManagement.Models.DatabaseModels.EmployeeModel>
+
+@{
+    ViewData["Title"] = "Get Employee Page";
+}
+<style>
+    .btn:focus, .btn:active {
+        outline: none !important;
+        box-shadow: none;
+    }
+</style>
+<h1>Employee page view</h1>
+<a class="btn btn-primary" asp-controller="Employee" asp-action="Create">Create</a>
+<br/>
+<br/>
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Company Name</th>
+            <th scope="col">Designation</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            if(Model == null)
+            {
+                <tr>
+                    <td colspan="5">
+                        <h5 class="text-center">There is no data for display</h5>
+                    </td>
+                </tr>
+            }
+            else
+                foreach(var employee in Model)
+                {
+                    <tr>
+                        <th scope="row">@employee.Id</th>
+                        <td>@employee.Name</td>
+                        <td>@employee.Address</td>
+                        <td>@employee.CompanyName</td>
+                        <td>@employee.Designation</td>
+                        <td>
+                            <a class="btn btn-outline-primary border-0" asp-action="Edit" asp-route-id="@employee.Id"><i class="fa-solid fa-pencil"></i></a>
+                            <a class="btn btn-outline-danger border-0" asp-action="Delete" asp-route-id="@employee.Id" ><i class="fa-solid fa-trash"></i></a>
+                        </td>
+                    </tr>
+                }
+        }
+        
+    </tbody>
+</table>
