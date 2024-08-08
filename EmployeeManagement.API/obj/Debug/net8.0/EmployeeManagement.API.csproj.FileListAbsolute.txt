@@ -107,3 +107,4 @@ F:\AspNetCorePractice\EmployeeManagement\EmployeeManagement.API\bin\Debug\net8.0
 F:\AspNetCorePractice\EmployeeManagement\EmployeeManagement.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
 F:\AspNetCorePractice\EmployeeManagement\EmployeeManagement.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 F:\AspNetCorePractice\EmployeeManagement\EmployeeManagement.API\bin\Debug\net8.0\EmployeeManagement.API.staticwebassets.runtime.json
+F:\AspNetCorePractice\EmployeeManagement\EmployeeManagement.API\obj\Debug\net8.0\EmployeeManagement.API.sourcelink.json

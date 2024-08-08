@@ -145,5 +145,106 @@ namespace EmployeeManagement.Services
             }
         }
 
+        public async Task UpdateCustomer(CustomerViewModel customer) 
+        {
+            try
+            {
+
+
+                string url = _apiUrl + $"Update/{customer.Id}";
+
+
+                string imageString = string.Empty;
+
+
+                //using (var memoryStream = new MemoryStream())
+                //{
+                //    await customer.Image.CopyToAsync(memoryStream);
+                //    byte[] imageData = memoryStream.ToArray();
+                //    var imageContent = Convert.ToBase64String(imageData);
+                //    imageString = imageContent;
+                //}
+
+
+                var cust = new
+                {
+
+                    Name = customer.Name,
+
+                    CustomerPostalCode = customer.CustomerPostalCode,
+
+                    City = customer.City,
+
+                    Email = customer.Email,
+
+                    Location = customer.Location,
+
+                    Phone = customer.Phone,
+
+                    Mobile = customer.Mobile,
+
+                    Image = imageString,
+
+                    Comment = customer.Comment
+                };
+
+                // Serialize the object to JSON
+                string jsonString = JsonConvert.SerializeObject(cust);
+
+                var jsonContent = new StringContent(jsonString, Encoding.UTF8, "application/json");
+
+                // Make the POST request
+                HttpResponseMessage response = await _httpClient.PostAsync(url, jsonContent);
+
+                response.EnsureSuccessStatusCode();
+
+                // Check the response status
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseBody = await response.Content.ReadAsStringAsync();
+
+                    Console.WriteLine("Response: " + responseBody);
+                }
+                else
+                {
+                    Console.WriteLine("Error: " + response.StatusCode);
+                }
+
+
+                //var responseBody = await response.Content.ReadFromJsonAsync<List<CustomerModel>>();
+                //return responseBody.ToList();
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Request error: {e.Message}");
+                //return new CustomerModel();
+            }
+        }
+
+        public void DeleteCustomer(int id) 
+        {
+            try
+            {
+
+                var uriBuilder = new UriBuilder(_apiUrl + $"Delete/{id}");
+                
+
+                //HttpResponseMessage response = await _httpClient.GetAsync(url);
+                HttpResponseMessage response = _httpClient.DeleteAsync(uriBuilder.ToString()).Result;
+                //response.EnsureSuccessStatusCode();
+                var responseBody = response.Content.ReadFromJsonAsync<CustomerResponseModel>().Result;
+
+
+
+                //return responseBody.i
+            }
+            catch (HttpRequestException e)
+            {
+                Console.WriteLine($"Request error: {e.Message}");
+               
+            }
+
+        }
+
     }
 }

@@ -17,18 +17,14 @@ namespace EmployeeManagement.Controllers
         } 
 
         // GET: CustomerController
-        public ActionResult Index()
+        public IActionResult Index()
         {
             var customers = _customerServices.GetAllCustomers().Result;
 
             return View(customers);
         }
 
-        // GET: CustomerController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+
 
         // GET: CustomerController/Create
         public ActionResult Create()
@@ -40,7 +36,7 @@ namespace EmployeeManagement.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         //public ActionResult Create(IFormCollection collection)
-        public ActionResult Create(CustomerViewModel collection)
+        public IActionResult Create(CustomerViewModel collection)
         {
             try
             {
@@ -49,7 +45,7 @@ namespace EmployeeManagement.Controllers
                     return View();
 
                 _customerServices.AddCustomer(collection);
-                    
+
                 // Process the image here, e.g., save it to the server
                 //if (collection.Image != null && collection.Image.Length > 0)
                 //{
@@ -61,7 +57,7 @@ namespace EmployeeManagement.Controllers
                 //    }
                 //}
 
-                return RedirectToAction("Index");
+                return ReturnToIndex();
             }
             catch(Exception ex)
             {
@@ -92,37 +88,54 @@ namespace EmployeeManagement.Controllers
         // POST: CustomerController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(CustomerViewModel value)
+        public IActionResult Edit(CustomerViewModel value)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                _customerServices.UpdateCustomer(value);
+
+                return ReturnToIndex();
             }
             catch
             {
-                return View();
+                return View("Index");
             }
         }
 
         // GET: CustomerController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: CustomerController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public IActionResult Delete(int id)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                _customerServices.DeleteCustomer(id);
+                //return RedirectToAction(nameof(Index));
+
+                return ReturnToIndex();
             }
             catch
             {
-                return View();
+                return View("Index");
             }
+        }
+
+        // POST: CustomerController/Delete/5
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public ActionResult Delete(int id)
+        //{
+        //    try
+        //    {
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    catch
+        //    {
+        //        return View();
+        //    }
+        //}
+
+        private IActionResult ReturnToIndex()
+        {
+            return RedirectToAction("Index");
         }
     }
 }

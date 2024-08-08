@@ -20,7 +20,7 @@ namespace EmployeeManagement.Models
         public string Phone { get; set; }
         public string Mobile { get; set; }
 
-        public IFormFile Image { get; set; }
+        public IFormFile? Image { get; set; }
 
         public string Comment { get; set; }
 
