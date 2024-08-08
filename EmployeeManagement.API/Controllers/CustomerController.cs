@@ -4,11 +4,10 @@ using EmployeeManagement.API.Models.DatabaseModels;
 using EmployeeManagement.API.Models;
 using EmployeeManagement.API.Repository;
 using System.IO;
-using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO.Pipelines;
 using System.Runtime.InteropServices;
-using static System.Net.Mime.MediaTypeNames;
+
 
 
 
@@ -44,7 +43,7 @@ namespace EmployeeManagement.API.Controllers
                 {
                     string imagePath = null;
 
-                    if (cust.ImageId == 0)
+                    if (cust.ImageId < 5)
                         imagePath = string.Empty;
                     else
                         imagePath = "/Uploads/Images/" + images.Where(img => img.Id == cust.ImageId).First().Name;
@@ -62,15 +61,7 @@ namespace EmployeeManagement.API.Controllers
                            Comment = cust.Comment,
                            ImagePath = imagePath,
                         });
-                }
-
-                //from image in images
-                //where image.Id == (from customer in customers select customer.ImageId).FirstOrDefault()
-                //select new
-                //{
-                //    Id = customer.Id,
-                //    Name = customer.Name,
-                //}
+                }    
 
 
                 return Ok(responseModel);
@@ -129,7 +120,7 @@ namespace EmployeeManagement.API.Controllers
         {
             try
             {
-                int imageStoreId = await Convert64ToImageAndSave(value.Image); ;
+                int imageStoreId = await Convert64ToImageAndSave(value.Image,value.ImageName); 
 
 
                 var customer = new CustomerDbModel
@@ -215,52 +206,73 @@ namespace EmployeeManagement.API.Controllers
 
 
         [NonAction]
-        private async Task<int> Convert64ToImageAndSave(string base64Image)
+        private async Task<int> Convert64ToImageAndSave(string base64Image,string imageName)
         {
-            string directoryPath = "~/Uploads/Images"; //Path.Combine(Directory.GetCurrentDirectory(), "Uploads/Images");
+
+            
+            string directoryPath = "wwwroot/Uploads/Images"; //Path.Combine(Directory.GetCurrentDirectory(), "Uploads/Images");
             Directory.CreateDirectory(directoryPath);  // Ensure the directory exists
 
-            string imageName = "image" + Guid.NewGuid().ToString() + ".jpg";
-            string uploadPath = Path.Combine(directoryPath, imageName);
+            string extention = imageName.Split('.')[1];
+            string imageNewName = "image" + Guid.NewGuid().ToString() + "." + extention;
+            string uploadPath = Path.Combine(directoryPath, imageNewName);
 
             byte[] bytes = Convert.FromBase64String(base64Image);
-            System.Drawing.Image image = null;
 
-            using (MemoryStream ms = new MemoryStream(bytes))
+           
+            using (MemoryStream ms = new MemoryStream(bytes, 0 , bytes.Length))
             {
-                image = new Bitmap(System.Drawing.Image.FromStream(ms));
-
-                // Check if the image is valid
-                if (image == null)
+                using (var image = System.Drawing.Image.FromStream(ms))
                 {
-                    throw new InvalidOperationException("Image object is not valid.");
+
+                   
+
+                    // Check if the image is valid
+                    if (image == null)
+                    {
+                        throw new InvalidOperationException("Image object is not valid.");
+                    }
+
+                    try
+                    {
+                        ImageFormat imageFormat = null;
+
+                        // Save the image to the specified path
+                        if (extention == "jpg" || extention == "jpeg")
+                            imageFormat = ImageFormat.Jpeg;
+                        else if (extention == "png")
+                            imageFormat = ImageFormat.Png;
+
+                        if (imageFormat == null)
+                            return 5;
+
+                        image.Save(uploadPath, imageFormat);
+
+                    }
+                    catch (ExternalException ex)
+                    {
+                        Console.WriteLine($"Image saving failed: {ex.Message}");
+                        throw;
+                    }
+                    catch (IOException ex)
+                    {
+                        Console.WriteLine($"File IO error: {ex.Message}");
+                        throw;
+                    }
+                    catch (UnauthorizedAccessException ex)
+                    {
+                        Console.WriteLine($"Access error: {ex.Message}");
+                        throw;
+                    }
+
                 }
             }
 
-            try
-            {
-                // Save the image to the specified path
-                image.Save(uploadPath, ImageFormat.Jpeg);
-            }
-            catch (ExternalException ex)
-            {
-                Console.WriteLine($"Image saving failed: {ex.Message}");
-                throw;
-            }
-            catch (IOException ex)
-            {
-                Console.WriteLine($"File IO error: {ex.Message}");
-                throw;
-            }
-            catch (UnauthorizedAccessException ex)
-            {
-                Console.WriteLine($"Access error: {ex.Message}");
-                throw;
-            }
+            
 
             var imagestoreid = await _customerImageRepository.Insert(new CustomerImageDbModel()
             {
-                Name = imageName,
+                Name = imageNewName,
                 Path = uploadPath,
             });
 

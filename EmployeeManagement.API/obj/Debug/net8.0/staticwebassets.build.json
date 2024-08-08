@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MLtFWqclho+kymq90jV+RU/n0mS/Z0Tu7+AHeWH5+8g=",
+  "Hash": "4y/gvOc4sr7ulNdSqW9DG1NYVrvH+mDI6MIZsl0cYQA=",
   "Source": "EmployeeManagement.API",
   "BasePath": "_content/EmployeeManagement.API",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\Images\\image09500f9d-37ec-4ca1-93c0-57408ad520ba.jpg"
+    },
+    {
+      "Identity": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image0979d106-46ad-46c3-ad75-bad021b695b0.jpg",
+      "SourceId": "EmployeeManagement.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement.API",
+      "RelativePath": "Uploads/Images/image0979d106-46ad-46c3-ad75-bad021b695b0.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\image0979d106-46ad-46c3-ad75-bad021b695b0.jpg"
     },
     {
       "Identity": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\image3080b00b-e773-4eb6-9081-509b501d5f6d",
@@ -186,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\Images\\imaged3f6e125-1fba-45bf-b93e-c5ffb9a8f936"
+    },
+    {
+      "Identity": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\imaged53fdcd6-3be2-4029-92fc-b0a226a1036b.png",
+      "SourceId": "EmployeeManagement.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\",
+      "BasePath": "_content/EmployeeManagement.API",
+      "RelativePath": "Uploads/Images/imaged53fdcd6-3be2-4029-92fc-b0a226a1036b.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\imaged53fdcd6-3be2-4029-92fc-b0a226a1036b.png"
     },
     {
       "Identity": "F:\\AspNetCorePractice\\EmployeeManagement\\EmployeeManagement.API\\wwwroot\\Uploads\\Images\\imagefd39dd78-24c4-4eba-826a-6d6b154d601a.jpg",

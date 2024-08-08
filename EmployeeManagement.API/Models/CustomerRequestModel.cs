@@ -20,6 +20,7 @@
         public string Mobile { get; set; }
 
         public string Image { get; set; }
+        public string ImageName { get; set; }
 
         public string Comment { get; set; }
     }

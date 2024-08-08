@@ -22,12 +22,20 @@ namespace EmployeeManagement.API.Repository
                 throw new InvalidOperationException($"No id is provided for type {nameof(CustomerRepository)} in delete operation");
 
             var cust = _customerDbContext.Customers.Single(c => c.Id == id);
-            var image = _customerDbContext.Images.Single(img => img.Id == cust.ImageId);
+            
+            var image = _customerDbContext.Images.
+                Where(img => img.Id == cust.ImageId).FirstOrDefault();
+                
+            //Single(img => img.Id == cust.ImageId)
             //remove the staff from the database
             
-            _customerDbContext.Images.Remove(image);
+            if(image != null)
+            {
+                _customerDbContext.Images.Remove(image);
+                await _customerDbContext.SaveChangesAsync();
 
-            await _customerDbContext.SaveChangesAsync();
+            }
+
             
             _customerDbContext.Customers.Remove(cust);
             

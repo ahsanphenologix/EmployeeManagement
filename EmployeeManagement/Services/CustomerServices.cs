@@ -15,6 +15,7 @@ namespace EmployeeManagement.Services
         private readonly HttpClient _httpClient; //= new HttpClient();
         private readonly IConfiguration _configuration;
         private readonly string _apiUrl = string.Empty;
+      
         public CustomerServices(IConfiguration configuration) 
         {
             _httpClient = new HttpClient();
@@ -78,6 +79,8 @@ namespace EmployeeManagement.Services
                     Mobile = customer.Mobile,
 
                     Image = imageString,
+
+                    ImageName = customer.Image.FileName,
 
                     Comment = customer.Comment
                 };
