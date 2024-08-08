@@ -168,7 +168,7 @@ namespace EmployeeManagement.Services
 
                 var cust = new
                 {
-
+                    Id = customer.Id,
                     Name = customer.Name,
 
                     CustomerPostalCode = customer.CustomerPostalCode,

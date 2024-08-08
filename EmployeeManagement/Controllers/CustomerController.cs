@@ -44,7 +44,7 @@ namespace EmployeeManagement.Controllers
                 if (!ModelState.IsValid)
                     return View();
 
-                _customerServices.AddCustomer(collection);
+                _customerServices.AddCustomer(collection).Wait();
 
                 // Process the image here, e.g., save it to the server
                 //if (collection.Image != null && collection.Image.Length > 0)
@@ -92,7 +92,7 @@ namespace EmployeeManagement.Controllers
         {
             try
             {
-                _customerServices.UpdateCustomer(value);
+                _customerServices.UpdateCustomer(value).Wait();
 
                 return ReturnToIndex();
             }
