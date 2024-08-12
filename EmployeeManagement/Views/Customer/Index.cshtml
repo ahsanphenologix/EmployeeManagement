@@ -16,7 +16,11 @@
     }
 </style>
 <h1>Customers page view</h1>
-<a class="btn btn-primary" asp-controller="Customer" asp-action="Create">Create</a>
+
+@if (Context.Session.GetString("Role") == "Admin" || Context.Session.GetString("Role") == "Customer")
+{
+    <a class="btn btn-primary" asp-controller="Customer" asp-action="Create">Create</a>
+}
 <br />
 <br />
 <table class="table">
@@ -73,8 +77,13 @@
 
                         <td>@customer.Comment</td>
                         <td>
-                            <a class="btn btn-outline-primary border-0" asp-action="Edit" asp-route-id="@customer.Id"><i class="fa-solid fa-pencil"></i></a>
-                            <a class="btn btn-outline-danger border-0" asp-action="Delete" asp-route-id="@customer.Id"><i class="fa-solid fa-trash"></i></a>
+
+                            @if (Context.Session.GetString("Role") == "Admin")
+                            {
+                                <a class="btn btn-outline-primary border-0" asp-action="Edit" asp-route-id="@customer.Id"><i class="fa-solid fa-pencil"></i></a>
+                                <a class="btn btn-outline-danger border-0" asp-action="Delete" asp-route-id="@customer.Id"><i class="fa-solid fa-trash"></i></a>
+                                
+                            }
                         </td>
                     </tr>
                 }

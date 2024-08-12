@@ -11,6 +11,6 @@ namespace EmployeeManagement.AppDbContext
         }
 
         public DbSet<EmployeeModel> Employees { get; set; }
-        public DbSet<CustomerViewModel> Customers { get; set; }
+        //public DbSet<CustomerViewModel> Customers { get; set; }
     }
 }

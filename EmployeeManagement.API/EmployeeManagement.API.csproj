@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
       <PrivateAssets>all</PrivateAssets>
@@ -16,10 +18,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.5" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     <PackageReference Include="System.Drawing.Common" Version="8.0.7" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,6 +37,10 @@
     <None Include="wwwroot\Uploads\Images\image96965a69-8ca4-43c9-8eef-72e6ebc3b830.jpg" />
     <None Include="wwwroot\Uploads\Images\imaged3f6e125-1fba-45bf-b93e-c5ffb9a8f936" />
     <None Include="wwwroot\Uploads\Images\imagefd39dd78-24c4-4eba-826a-6d6b154d601a.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\ResponseModels\" />
   </ItemGroup>
 
 </Project>

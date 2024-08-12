@@ -7,7 +7,8 @@ using System.IO;
 using System.Drawing.Imaging;
 using System.IO.Pipelines;
 using System.Runtime.InteropServices;
-
+using Microsoft.AspNetCore.Authorization;
+//using Microsoft.Extensions.PlatformAbstractions;
 
 
 
@@ -22,12 +23,15 @@ namespace EmployeeManagement.API.Controllers
         private readonly IRepository<CustomerDbModel> _customerRepository;
         private readonly IRepository<CustomerImageDbModel> _customerImageRepository;
 
+        //private readonly IApplicationEnvironment _applicationEnvironment;
+
         public CustomerController(IRepository<CustomerDbModel> repository, IRepository<CustomerImageDbModel> customerImageRepository)
         {
             _customerRepository = repository;
             _customerImageRepository = customerImageRepository;
         }
 
+        [Authorize]
         // GET: api/<CustomerController>
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAllAsync()
@@ -73,6 +77,7 @@ namespace EmployeeManagement.API.Controllers
             }
         }
 
+        [Authorize( Roles = "Admin")]
         // GET api/<CustomerController>/5
         [HttpGet("GetById/{id}")]
         public async Task<IActionResult> GetByIdAsync(int id)
@@ -80,11 +85,15 @@ namespace EmployeeManagement.API.Controllers
             try
             {
                 var customer = await _customerRepository.GetById(id);
+
+                if (customer == null)
+                    return NoContent();
+
                 var image = await _customerImageRepository.GetById(customer.ImageId);
 
                 string imagePath = null;
 
-                if (customer.ImageId == 0)
+                if (customer.ImageId == 0 || image == null)
                     imagePath = string.Empty;
                 else
                     imagePath = "/Uploads/Images/" + image.Name;
@@ -114,6 +123,7 @@ namespace EmployeeManagement.API.Controllers
             }
         }
 
+        [Authorize(Roles = "Customer")]
         // POST api/<CustomerController>
         [HttpPost("AddNewCustomer")]
         public async Task<IActionResult> AddNewCustomerAsync([FromBody] CustomerRequestModel value)
@@ -159,6 +169,7 @@ namespace EmployeeManagement.API.Controllers
             }
         }
 
+        [Authorize(Roles = "Admin")]
         // PUT api/<CustomerController>/5
         [HttpPost("update/{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] CustomerDbModel value)
@@ -182,6 +193,7 @@ namespace EmployeeManagement.API.Controllers
             
         }
 
+        [Authorize(Roles = "Admin")]
         // DELETE api/<CustomerController>/5
         [HttpDelete("Delete/{id}")]
         public async Task<IActionResult> Delete(int id)

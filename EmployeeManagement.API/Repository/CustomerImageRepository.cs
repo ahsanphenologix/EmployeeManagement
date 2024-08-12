@@ -48,7 +48,8 @@ namespace EmployeeManagement.API.Repository
             if (id == 0)
                 throw new InvalidOperationException($"No id is provided for type {nameof(CustomerRepository)} in GetById operation");
 
-            var cust = _customerDbContext.Images.Single(c => c.Id == id);
+            var cust = _customerDbContext.Images
+                .Where(c => c.Id == id).FirstOrDefault();
 
             if (cust == null)
                 return null;
